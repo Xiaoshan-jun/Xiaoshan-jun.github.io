@@ -1,272 +1,48 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <title>Jun Xiang</title>
-
-    <meta name="author" content="Jun Xiang">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
-  </head>
-
-  <tbody>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Jun Xiang
-                </p>
-                <p>
-		I'm currently a final year joint Phd student at UCSD and SDSU in San Diego, fortunately advised by <a href="https://junchen.sdsu.edu/">Prof. Jun Chen</a> and <a href="http://muro.ucsd.edu/sonia/">Prof. Sonia Martínez</a>.
-        My research interest is in accelerating the optimization process using machine learning. I am working on stable neural network controllers, reachability analysis, trajectory prediction, and path planning problems.
-
-                </p>
-                <p style="text-align:center">
-                  <a href="jxiang@ucsd.edu">Email</a> &nbsp;/&nbsp;
-                  <a href="data/jun_xiang_resume_for_MLE.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?hl=en&user=yY5O5lAAAAAJ">Scholar</a> &nbsp;/&nbsp;
-                  <a href="www.linkedin.com/in/jun-xiang">Linkedin</a> /
-                  <a href="https://github.com/Xiaoshan-jun">Github</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:67%;max-width:67%">
-                <a href="images/self.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/self.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Selected Publications</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <!-- Certified RL -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:12px;width:100%;vertical-align:middle">
-              <h2>Certified Reinforcement Learning for vehicle and drone control</h2>
-            </td></tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:16px;vertical-align:middle">
-              <a href="https://relight-to-reconstruct.github.io/">
-                <span class="papertitle">Certified Almost Lyapunov-stable Reinforcement Learning Controller for High-Dimensional Dynamic System.</span>
-              </a>
-              <br>
-              <strong>Jun Xiang</strong>, Sonia Martinez, Jun Chen
-              <br>
-              <em>submitted to journal</em>, 2026
-              <br>
-              <a href="https://relight-to-reconstruct.github.io/">project page</a> /
-              <a href="https://arc.aiaa.org/eprint/BVIKIZ24J2PJ4CJINI3J/full/10.2514/6.2025-3518">paper</a>
-              <p> A hierarchical Lyapunov stable controller, which is easier to be trained by reinforcement learning. Able to save quadrotor in almost any state.  </p>
-            </td></tr>
-            <tr onmouseout="rrt_stop()" onmouseover="rrt_start()"><td style="padding:16px;text-align:center;">
-              <img id="sac_img" src="images/quadrotor2d_pitch_sac_1.gif" alt="RRT* Animation Preview" style="max-width:100%; height:auto;">
-              <script type="text/javascript">
-                function rrt_start() { document.getElementById('sac_img').src = 'images/images/quadrotor2d_pitch_sac_1.gif'; }
-                function rrt_stop() { document.getElementById('sac_img').src = 'images/images/quadrotor2d_pitch_sac_1.gif'; }
-                (function() { var img = new Image(); img.src = 'images/rrt_star_episode_1.gif'; })();
-              </script>
-            </td></tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:16px;vertical-align:middle">
-              <a href="https://relight-to-reconstruct.github.io/">
-                <span class="papertitle">Comfort improvement for autonomous vehicles using reinforcement learning with in-situ human feedback</span>
-              </a>
-              <br>
-              <strong>Jun Xiang</strong>, Longxiang Guo
-              <br>
-              <em>WCX SAE World Congress Experience</em>, 2022
-              <br>
-              <a href="https://relight-to-reconstruct.github.io/">project page</a> /
-              <a href="https://arc.aiaa.org/eprint/BVIKIZ24J2PJ4CJINI3J/full/10.2514/6.2025-3518">paper</a>
-              <p> A collision free guaranteed reinforcement learning autonomous vehicle car following strategy   </p>
-            </td></tr>
-            <tr onmouseout="rrt_stop()" onmouseover="rrt_start()"><td style="padding:16px;text-align:center;">
-              <img id="av" src="images/av.gif" alt="RRT* Animation Preview" style="max-width:100%; height:auto;">
-              <script type="text/javascript">
-                function rrt_start() { document.getElementById('av').src = 'images/images/av.gif'; }
-                function rrt_stop() { document.getElementById('av').src = 'images/images/av.gif'; }
-                (function() { var img = new Image(); img.src = 'images/av.gif'; })();
-              </script>
-            </td></tr>
-               <tr><td style="padding:16px;text-align:center;">
-              <img src="images/LiftCruise_vehicle.png" alt="Airport trajectory prediction" style="max-width:100%; height:auto;">
-            </td></tr>
-          </tbody></table>
-
-          <!-- Aircraft trajectory prediction -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:12px;width:100%;vertical-align:middle">
-              <h2>Aircraft trajectory prediction</h2>
-            </td></tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:16px;vertical-align:middle">
-              <a href="https://relight-to-reconstruct.github.io/">
-                <span class="papertitle">Intention-Guided Airport Surface Trajectory Forecasting Using a Vision Language Model</span>
-              </a>
-              <br>
-              <strong>Jun Xiang</strong>, Xuewei Chen, Jun Chen
-              <br>
-              <em>SCITECH</em>, 2026
-              <br>
-              <a href="https://relight-to-reconstruct.github.io/">project page</a> /
-              <a href="https://arc.aiaa.org/eprint/BVIKIZ24J2PJ4CJINI3J/full/10.2514/6.2025-3518">paper</a>
-              <p>Use VLM-based scene understanding and intention classification to improve trajectory prediction.</p>
-            </td></tr>
-            <tr><td style="padding:16px;text-align:center;">
-              <img src="images/klax_all_goals_classified.png" alt="Airport trajectory prediction" style="max-width:100%; height:auto;">
-            </td></tr>
-                      <tr><td style="padding:16px;text-align:center;">
-              <img src="images/prediction.png" alt="Airport trajectory prediction" style="max-width:100%; height:auto;">
-            </td></tr>
-          </tbody></table>
-
-          <!-- Constrained path planning -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:12px;width:100%;vertical-align:middle">
-              <h2>Constrained path planning with limited resources and multiple objectives</h2>
-            </td></tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:16px;vertical-align:middle">
-              <a href="https://relight-to-reconstruct.github.io/">
-                <span class="papertitle">Learning-accelerated a* search for risk-aware path planning</span>
-              </a>
-              <br>
-              <strong>Jun Xiang</strong>, Junfei Xie, Jun Chen
-              <br>
-              <em>SCITECH</em>, 2024
-              <br>
-              <a href="https://relight-to-reconstruct.github.io/">project page</a> /
-              <a href="https://arc.aiaa.org/eprint/BVIKIZ24J2PJ4CJINI3J/full/10.2514/6.2025-3518">paper</a>
-              <p>Introduce resource dimensions so that A* can search for the shortest path without violating resource limits. This also enables multi-objective search.</p>
-            </td></tr>
-            <tr><td style="padding:16px;text-align:center;">
-              <img src="images/additional dimension.png" alt="Constrained path planning" style="max-width:100%; height:auto;">
-            </td></tr>
-          </tbody></table>
-
-          <!-- Hybrid multiscale search -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:16px;vertical-align:middle">
-              <a href="https://relight-to-reconstruct.github.io/">
-                <span class="papertitle">Hybrid multiscale search for dynamic planning of multi-agent drone traffic</span>
-              </a>
-              <br>
-              <strong>Jun Xiang</strong>, Jun Chen, Yanchao Liu
-              <br>
-              <em>Journal of Guidance, Control, and Dynamics</em>, 2023
-              <br>
-              <a href="https://relight-to-reconstruct.github.io/">project page</a> /
-              <a href="https://arc.aiaa.org/eprint/BVIKIZ24J2PJ4CJINI3J/full/10.2514/6.2025-3518">paper</a>
-              <p>Adaptive multiscale A* algorithm, more efficient and robust.</p>
-            </td></tr>
-            <tr><td style="padding:16px;text-align:center;">
-              <img id="output_img" src="images/output_video.gif" alt="Hybrid multiscale search" style="max-width:100%; height:auto;">
-                     <script type="text/javascript">
-                function rrt_start() { document.getElementById('output_img').src = 'images/output_video.gif'; }
-                function rrt_stop() { document.getElementById('output_img').src = 'images/output_video.gif'; }
-                (function() { var img = new Image(); img.src = 'images/output_video.gif'; })();
-              </script>
-            </td></tr>
-          </tbody></table>
-
-          <!-- Dynamic UAS traffic -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:16px;vertical-align:middle">
-              <a href="https://relight-to-reconstruct.github.io/">
-                <span class="papertitle">Dynamic unmanned aircraft system traffic volume reservation based on multi-scale a* algorithm</span>
-              </a>
-              <br>
-              <strong>Jun Xiang</strong>, Victor Amaya, Jun Chen
-              <br>
-              <em>Scitech</em>, 2022
-              <br>
-              <a href="https://relight-to-reconstruct.github.io/">project page</a> /
-              <a href="https://arc.aiaa.org/eprint/BVIKIZ24J2PJ4CJINI3J/full/10.2514/6.2025-3518">paper</a>
-              <p>Introduce multiscale A* and dynamic traffic-volume reservation to increase airspace usage efficiency. We allocate more search resources to important or high-risk areas and fewer resources to unrelated or low-risk areas.</p>
-            </td></tr>
-            <tr><td style="padding:16px;text-align:center;">
-              <img id="multi_img" src="images/multi.gif" alt="Dynamic UAS traffic" style="max-width:100%; height:auto;">
-                     <script type="text/javascript">
-                function rrt_start() { document.getElementById('output_img').src = 'images/multi.gif'; }
-                function rrt_stop() { document.getElementById('output_img').src = 'images/multi.png'; }
-                (function() { var img = new Image(); img.src = 'images/multi.gif'; })();
-              </script>
-            </td></tr>
-          </tbody></table>
-
-          <!-- Learning-Accelerated RRT* -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:16px;vertical-align:middle">
-              <a href="https://relight-to-reconstruct.github.io/">
-                <span class="papertitle">Learning-Accelerated RRT* Search for Risk-Aware Path Planning</span>
-              </a>
-              <br>
-              <strong>Jun Xiang</strong>, Jun Chen
-              <br>
-              <em>AVIATION</em>, 2025
-              <br>
-              <a href="https://relight-to-reconstruct.github.io/">project page</a> /
-              <a href="https://arc.aiaa.org/eprint/BVIKIZ24J2PJ4CJINI3J/full/10.2514/6.2025-3518">paper</a>
-              <p>Images taken under extreme illumination variation can be made consistent with diffusion, and this enables high-quality 3D reconstruction.</p>
-            </td></tr>
-            <tr onmouseout="rrt_stop()" onmouseover="rrt_start()"><td style="padding:16px;text-align:center;">
-              <img id="rrt_img" src="images/rrt_star_episode_1.gif" alt="RRT* Animation Preview" style="max-width:100%; height:auto;">
-              <script type="text/javascript">
-                function rrt_start() { document.getElementById('rrt_img').src = 'images/rrt_star_episode_1.gif'; }
-                function rrt_stop() { document.getElementById('rrt_img').src = 'images/rrt_star_episode_1.gif'; }
-                (function() { var img = new Image(); img.src = 'images/rrt_star_episode_1.gif'; })();
-              </script>
-            </td></tr>
-          </tbody></table>
-
-          <!-- Reachability analysis -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:12px;width:100%;vertical-align:middle">
-              <h2>Uncertain obstacle analysis</h2>
-            </td></tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr><td style="padding:16px;vertical-align:middle">
-              <a href="https://relight-to-reconstruct.github.io/">
-                <span class="papertitle">Convex Approximation of Probabilistic Reachable Sets from Small Samples Using Self-supervised Neural Networks</span>
-              </a>
-              <br>
-              <strong>Jun Xiang</strong>, Jun Chen
-              <br>
-              <a href="https://relight-to-reconstruct.github.io/">project page</a> /
-              <a href="https://arxiv.org/abs/2411.14356">paper</a>
-              <p>Construct probalbilstic environment based on limited sensor data </p>
-            </td></tr>
-            <tr><td style="padding:16px;text-align:center;">
-              <img src="images/maskedExample.png" alt="Reachability analysis" style="max-width:100%; height:auto;">
-            </td></tr>
-          </tbody></table>
-            
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Design and source code from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Jun Xiang">
+<meta name="description" content="Jun Xiang — Ph.D. candidate in Mechanical Engineering at UC San Diego and San Diego State University. Safe learning-based control, reachability, trajectory prediction, and motion planning.">
+<title>Jun Xiang | Learning and Control for Autonomous Systems</title>
+<link rel="icon" href="images/favicon/favicon.ico">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#fff;color:#242b35;font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main,footer{max-width:880px;margin:auto;padding:32px 26px}a{color:#17609b;text-decoration:none}a:hover,a:focus-visible{text-decoration:underline}header{display:flex;gap:38px;align-items:center;padding:18px 0 32px}.intro{flex:1}h1{font-size:36px;letter-spacing:-1px;margin:0 0 6px}h2{font-size:23px;margin:34px 0 20px}h3{font-size:17px;line-height:1.5;margin:0 0 6px}.subtitle,.venue{color:#5a6573}.portrait{width:190px;height:190px;object-fit:cover;border-radius:50%}.links{display:flex;flex-wrap:wrap;gap:17px}.interest{border-left:3px solid #17609b;padding:4px 18px;background:#f7f9fc}nav{display:flex;flex-wrap:wrap;gap:9px 22px;padding:18px 0;border-bottom:1px solid #e2e7ec}section{scroll-margin-top:20px}article{margin:0 0 30px;padding:0 0 26px;border-bottom:1px solid #e2e7ec}article p{margin:5px 0}.authors,.venue,.paper-links{font-size:14px}.research-image{display:block;max-width:100%;max-height:380px;width:auto;height:auto;margin:18px auto 0}.education p{margin:10px 0}footer{font-size:12px;color:#657180;padding-top:0}@media(max-width:600px){header{flex-direction:column-reverse;align-items:flex-start;gap:20px}.portrait{width:130px;height:130px}main{padding:24px 20px}h1{font-size:31px}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="intro">
+<h1>Jun Xiang</h1>
+<p class="subtitle">Ph.D. Candidate · Mechanical Engineering<br>UC San Diego / San Diego State University</p>
+<p>I am a Ph.D. candidate in the joint Mechanical Engineering program at UC San Diego and San Diego State University, advised by <a href="https://junchen.sdsu.edu/">Prof. Jun Chen</a> and <a href="http://muro.ucsd.edu/sonia/">Prof. Sonia Martínez</a>. I expect to graduate in 2026.</p>
+<p>My research focuses on safe and stable learning-based control for autonomous systems. I develop reinforcement-learning and neural-network controllers, formal verification methods, probabilistic reachability analysis, trajectory prediction models, and risk-aware motion-planning algorithms.</p>
+<p class="links"><a href="mailto:jxiang@ucsd.edu">Email</a><a href="data/jun_xiang_resume_for_MLE.pdf">CV</a><a href="https://scholar.google.com/citations?user=yY5O5lAAAAAJ&amp;hl=en">Google Scholar</a><a href="https://www.linkedin.com/in/jun-xiang">LinkedIn</a><a href="https://github.com/Xiaoshan-jun">GitHub</a></p>
+</div>
+<img class="portrait" src="images/self.jpg" alt="Jun Xiang">
+</header>
+<p class="interest">I am seeking postdoctoral opportunities in robotics, safe reinforcement learning, and learning-based control.</p>
+<nav aria-label="Page sections"><a href="#research">Research</a><a href="#education">Education</a><a href="#experience">Experience</a></nav>
+<section id="research"><h2>Selected Publications and Manuscripts</h2>
+<!-- Submitted and accepted statuses reflect the supplied CV; submitted manuscripts are not presented as accepted papers. -->
+<section><h2>Safe and stable learning-based control</h2><article><h3>Multi-Phase Reinforcement Learning for Formally Certified Safe and Stable Control</h3><p class="authors"><strong>Jun Xiang</strong>, Sonia Martínez, Jun Chen</p><p class="venue">Manuscript submitted to Automatica, 2025</p><p>A multi-phase framework for training reinforcement-learning controllers and formally verifying closed-loop safety and stability.</p><img class="research-image" loading="lazy" src="images/quadrotor2d_pitch_sac_1.gif" alt="Simulation of a learning-based controller for a planar quadrotor"></article><article><h3>Barrier-Lyapunov-Agent: Training and Verifying Safe and Stable Neural Network Controllers</h3><p class="authors"><strong>Jun Xiang</strong>, Jun Chen</p><p class="venue">Manuscript; submitted to ICLR 2026</p><p>An AI-agent framework for automating the training and verification of safe and stable neural-network controllers.</p></article><article><h3><a href="https://doi.org/10.4271/2022-01-0807">Comfort Improvement for Autonomous Vehicles Using Reinforcement Learning with In-Situ Human Feedback</a></h3><p class="authors"><strong>Jun Xiang</strong>, Longxiang Guo</p><p class="venue">WCX SAE World Congress Experience, 2022</p><p>Reinforcement learning with in-situ human feedback to adapt longitudinal driving behavior and improve passenger ride comfort.</p><p class="paper-links"><a href="https://doi.org/10.4271/2022-01-0807">Paper</a></p><img class="research-image" loading="lazy" src="images/av.gif" alt="Autonomous-vehicle car-following demonstration"></article></section>
+<section><h2>Trajectory prediction</h2><article><h3>Intention-Guided Airport Surface Trajectory Forecasting Using a Vision Language Model</h3><p class="authors"><strong>Jun Xiang</strong>, Xuewei Chen, Jun Chen</p><p class="venue">AIAA SciTech 2026 Forum · Best Student Paper Finalist</p><p>Vision-language-model-based scene understanding and intention guidance for airport surface trajectory forecasting.</p><img class="research-image" loading="lazy" src="images/klax_all_goals_classified.png" alt="Airport surface map with classified goals"><img class="research-image" loading="lazy" src="images/prediction.png" alt="Airport surface trajectory predictions"></article><article><h3>Context-Conditioned Diffusion Model for Long-Term Aircraft Trajectory Prediction Denoising from Pre-Generated Intention and Waypoints</h3><p class="authors"><strong>Jun Xiang</strong>, Jun Chen</p><p class="venue">IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2026 · Accepted</p><p>A context-conditioned diffusion approach to long-term aircraft trajectory prediction using intention and waypoint information.</p></article><article><h3><a href="https://arxiv.org/abs/2409.17359">Data-driven Probabilistic Trajectory Learning with High Temporal Resolution in Terminal Airspace</a></h3><p class="authors"><strong>Jun Xiang</strong>, Jun Chen</p><p class="venue">Journal of Aerospace Information Systems, 2025</p><p>Probabilistic learning for long-horizon aircraft trajectory prediction with high temporal resolution.</p><p class="paper-links"><a href="https://arxiv.org/abs/2409.17359">Preprint</a></p></article><article><h3><a href="https://arxiv.org/abs/2411.14403">Landing Trajectory Prediction for UAS Based on Generative Adversarial Network</a></h3><p class="authors"><strong>Jun Xiang</strong>, Drake Essick, Luiz Gonzalez Bautista, Junfei Xie, Jun Chen</p><p class="venue">AIAA SciTech 2023 Forum</p><p>A generative adversarial network for predicting UAS landing trajectories.</p><p class="paper-links"><a href="https://arxiv.org/abs/2411.14403">Preprint</a></p></article></section>
+<section><h2>Risk-aware motion planning</h2><article><h3><a href="https://doi.org/10.2514/6.2025-3518">Learning-Accelerated RRT* Search for Risk-Aware Path Planning</a></h3><p class="authors"><strong>Jun Xiang</strong>, Jun Chen</p><p class="venue">AIAA Aviation 2025 Forum</p><p>Learning-accelerated RRT* for motion planning that accounts for risk.</p><p class="paper-links"><a href="https://doi.org/10.2514/6.2025-3518">Paper</a></p><img class="research-image" loading="lazy" src="images/rrt_star_episode_1.gif" alt="RRT* path-planning animation"></article><article><h3><a href="https://arxiv.org/abs/2411.14427">Transformer-based Heuristic for Advanced Air Mobility Planning</a></h3><p class="authors"><strong>Jun Xiang</strong>, Jun Chen</p><p class="venue">IEEE/AIAA Digital Avionics Systems Conference (DASC), 2024</p><p>Transformer-based learned heuristics for risk-aware advanced air mobility planning.</p><p class="paper-links"><a href="https://arxiv.org/abs/2411.14427">Preprint</a></p></article><article><h3><a href="https://arxiv.org/abs/2409.11634">Learning-accelerated A* Search for Risk-aware Path Planning</a></h3><p class="authors"><strong>Jun Xiang</strong>, Junfei Xie, Jun Chen</p><p class="venue">AIAA SciTech 2024 Forum</p><p>An additional safety dimension and a learned transformer heuristic support constrained, risk-aware path search.</p><p class="paper-links"><a href="https://arxiv.org/abs/2409.11634">Preprint</a></p><img class="research-image" loading="lazy" src="images/additional%20dimension.png" alt="Additional safety dimension for constrained path planning"></article><article><h3><a href="https://doi.org/10.2514/1.G007343">Hybrid Multiscale Search for Dynamic Planning of Multi-Agent Drone Traffic</a></h3><p class="authors"><strong>Jun Xiang</strong>, Jun Chen, Yanchao Liu</p><p class="venue">Journal of Guidance, Control, and Dynamics, 2023</p><p>Hybrid multiscale search and dynamic traffic-volume reservation for multi-agent drone planning.</p><p class="paper-links"><a href="https://doi.org/10.2514/1.G007343">Paper</a></p><img class="research-image" loading="lazy" src="images/output_video.gif" alt="Multi-agent drone planning with hybrid multiscale search"></article><article><h3>Dynamic Unmanned Aircraft System Traffic Volume Reservation Based on Multi-Scale A* Algorithm</h3><p class="authors"><strong>Jun Xiang</strong>, Victor Amaya, Jun Chen</p><p class="venue">AIAA SciTech 2022 Forum</p><p>Multiscale A* and dynamic traffic-volume reservation for drone traffic management.</p><img class="research-image" loading="lazy" src="images/multi.gif" alt="Multiscale drone traffic planning"></article></section>
+<section><h2>Reachability analysis under uncertainty</h2><article><h3><a href="https://arxiv.org/abs/2411.14356v1">Convex Approximation of Probabilistic Reachable Sets from Small Samples Using Self-supervised Neural Networks</a></h3><p class="authors"><strong>Jun Xiang</strong>, Jun Chen</p><p class="venue">IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2026</p><p>Neural-network approximations of probabilistic reachable sets from limited samples, using convex expert approximations and self-supervised learning.</p><p class="paper-links"><a href="https://arxiv.org/abs/2411.14356v1">Earlier preprint (2024)</a></p><img class="research-image" loading="lazy" src="images/maskedExample.png" alt="Learning-based set approximation from limited samples"></article><article><h3>Imitation Learning-based Convex Approximations of Probabilistic Reachable Sets</h3><p class="authors"><strong>Jun Xiang</strong>, Jun Chen</p><p class="venue">AIAA Aviation 2024 Forum</p><p>Imitation learning for constructing convex approximations of probabilistic reachable sets.</p></article></section>
+</section>
+<section id="education" class="education"><h2>Education</h2>
+<p><strong>Ph.D. in Mechanical Engineering</strong><br>UC San Diego / San Diego State University · Expected 2026</p>
+<p><strong>Master of Automotive Engineering</strong><br>Clemson University · 2019–2021<br>Area of study: autonomous vehicles</p>
+<p><strong>Bachelor of Mechanical Engineering</strong><br>North Carolina State University · 2015–2019</p>
+</section>
+<section id="experience"><h2>Research Experience and Skills</h2>
+<p><strong>Research Assistant, UC San Diego / San Diego State University</strong> · August 2021–present<br>Learning-based control and formal verification with Lyapunov and control-barrier conditions; automated verification using auto-LiRPA and hybrid MILP; trajectory prediction, reachability analysis, motion planning, and real-world UAV flight experiments.</p>
+<p><strong>Research Assistant, Clemson University International Center for Automotive Research</strong> · August 2019–August 2021<br>Reinforcement learning for ride comfort, pedestrian motion prediction, and autonomous-vehicle data collection.</p>
+<p><strong>Programming:</strong> Python, C++, MATLAB<br><strong>Tools:</strong> PyTorch, TensorFlow, ROS, Git, Simulink<br><strong>Planning and control:</strong> A*, RRT*, MPC, LQR, Lyapunov stability, control barrier functions</p>
+</section>
+</main>
+<footer>Original website template: <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.</footer>
+</body>
 </html>
